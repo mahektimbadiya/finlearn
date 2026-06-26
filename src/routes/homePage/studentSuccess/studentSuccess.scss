@@ -81,6 +81,7 @@
                         padding: 0;
                         z-index: 1;
                         display: block;
+                        max-width: 100%;
 
                         .slick-list {
                             overflow: hidden;
@@ -91,10 +92,15 @@
                             gap: 0;
                         }
 
+                        .slick-slide{
+                            max-width: calc(345.231px + 24px);
+                        }
+
                         .swiper-slide {
                             transform: translateZ(0);
                             backface-visibility: hidden;
                             max-width: 345.231px;
+                            width: 345.231px;
                             margin-right: 24px;
                             flex-shrink: 0;
                             height: 100%;
@@ -196,7 +202,6 @@
                                 }
                             }
                         }
-
                     }
                 }
             }

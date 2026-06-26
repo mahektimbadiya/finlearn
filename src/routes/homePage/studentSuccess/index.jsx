@@ -3,7 +3,6 @@ import "./studentSuccess.scss"
 import QuoteImage from "../../../assets/logo/quote.svg"
 import NadiaFernandesImage from "../../../assets/images/student6.jpg"
 import { ArrowLeft, ArrowRight, Star } from "lucide-react";
-
 import ReactSlick from "react-slick";
 const Slider = ReactSlick.default ?? ReactSlick;
 
@@ -44,7 +43,7 @@ export default function StudentSuccess() {
                     </div>
                     <div className="studentSuccess-items">
                         <div className="swiper">
-                            <Slider {...settings}>
+                            <Slider {...settings} className= "slider">
                                 <div className="swiper-slide">
                                     <div className="studentSuccess-relativeBox">
                                         <div className="studentSuccess-information">
