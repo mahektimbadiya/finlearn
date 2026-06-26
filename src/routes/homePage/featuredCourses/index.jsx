@@ -4,6 +4,7 @@ import PersonalFinanceWealthImage from "../../../assets/images/Personal Finance 
 import time from "../../../assets/logo/time.svg"
 import star from "../../../assets/logo/Star.svg"
 import rightArrow from "../../../assets/logo/right.svg"
+import Button from "../../../componentes/button";
 
 export default function FeaturedCourses() {
     return (
@@ -323,12 +324,7 @@ export default function FeaturedCourses() {
                         </div>
                     </div>
                     <div className="featuredCourses-buttonCenter">
-                        <div className="button">
-                            <button>
-                                <span>All Courses</span>
-                                <img src={rightArrow} alt="rightArrow"></img>
-                            </button>
-                        </div>
+                        <Button buttonText={"All Courses"} />
                     </div>
                 </div>
             </div>

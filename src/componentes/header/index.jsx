@@ -1,7 +1,11 @@
+import "../../sass/main.scss"
+import "../../sass/theme/theme.scss"
+
 import React from "react";
 import "./header.scss"
 import FinLearnLogo from "../../assets/logo/FinLearn.svg"
 import rightArrow from "../../assets/logo/right.svg"
+import Button from "../button";
 
 export default function Header() {
     return (
@@ -15,10 +19,7 @@ export default function Header() {
                     </div>
                     <div className="header-rightAlignment">
                         <div className="header-button">
-                            <button>
-                                <span>Login</span>
-                                <img src={rightArrow} alt="rightArrow"></img>
-                            </button>
+                            <Button buttonText={"Login"}/>
                         </div>
                         <div className="header-button header-button-black">
                             <button>

@@ -294,6 +294,131 @@ export default function StudentSuccess() {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="swiper-slide">
+                                    <div className="studentSuccess-relativeBox">
+                                        <div className="studentSuccess-information">
+                                            <p>
+                                                The offline workshop wasn't just theory — it was real conversations and real feedback. I walked out with an actual growth strategy and a network I still use today.
+                                            </p>
+                                            <div className="studentSuccess-iconAlignment">
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                            </div>
+                                            <div className="studentSuccess-vecAlignment"></div>
+                                        </div>
+                                        <div className="studentSuccess-profileAlignment">
+                                            <img src={NadiaFernandesImage} alt="Nadia Fernandes, 33" />
+                                            <div>
+                                                <h4>Nadia Fernandes, 33</h4>
+                                                <p>Hyderabad</p>
+                                                <span className="studentSuccess-category">Business Development</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="studentSuccess-relativeBox">
+                                        <div className="studentSuccess-information">
+                                            <p>
+                                                The offline workshop wasn't just theory — it was real conversations and real feedback. I walked out with an actual growth strategy and a network I still use today.
+                                            </p>
+                                            <div className="studentSuccess-iconAlignment">
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                            </div>
+                                            <div className="studentSuccess-vecAlignment"></div>
+                                        </div>
+                                        <div className="studentSuccess-profileAlignment">
+                                            <img src={NadiaFernandesImage} alt="Nadia Fernandes, 33" />
+                                            <div>
+                                                <h4>Nadia Fernandes, 33</h4>
+                                                <p>Hyderabad</p>
+                                                <span className="studentSuccess-category">Business Development</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="studentSuccess-relativeBox">
+                                        <div className="studentSuccess-information">
+                                            <p>
+                                                The offline workshop wasn't just theory — it was real conversations and real feedback. I walked out with an actual growth strategy and a network I still use today.
+                                            </p>
+                                            <div className="studentSuccess-iconAlignment">
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                            </div>
+                                            <div className="studentSuccess-vecAlignment"></div>
+                                        </div>
+                                        <div className="studentSuccess-profileAlignment">
+                                            <img src={NadiaFernandesImage} alt="Nadia Fernandes, 33" />
+                                            <div>
+                                                <h4>Nadia Fernandes, 33</h4>
+                                                <p>Hyderabad</p>
+                                                <span className="studentSuccess-category">Business Development</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="studentSuccess-relativeBox">
+                                        <div className="studentSuccess-information">
+                                            <p>
+                                                The offline workshop wasn't just theory — it was real conversations and real feedback. I walked out with an actual growth strategy and a network I still use today.
+                                            </p>
+                                            <div className="studentSuccess-iconAlignment">
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                            </div>
+                                            <div className="studentSuccess-vecAlignment"></div>
+                                        </div>
+                                        <div className="studentSuccess-profileAlignment">
+                                            <img src={NadiaFernandesImage} alt="Nadia Fernandes, 33" />
+                                            <div>
+                                                <h4>Nadia Fernandes, 33</h4>
+                                                <p>Hyderabad</p>
+                                                <span className="studentSuccess-category">Business Development</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="studentSuccess-relativeBox">
+                                        <div className="studentSuccess-information">
+                                            <p>
+                                                The offline workshop wasn't just theory — it was real conversations and real feedback. I walked out with an actual growth strategy and a network I still use today.
+                                            </p>
+                                            <div className="studentSuccess-iconAlignment">
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                                <Star />
+                                            </div>
+                                            <div className="studentSuccess-vecAlignment"></div>
+                                        </div>
+                                        <div className="studentSuccess-profileAlignment">
+                                            <img src={NadiaFernandesImage} alt="Nadia Fernandes, 33" />
+                                            <div>
+                                                <h4>Nadia Fernandes, 33</h4>
+                                                <p>Hyderabad</p>
+                                                <span className="studentSuccess-category">Business Development</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </Slider>
                         </div>
                     </div>
