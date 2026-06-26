@@ -1,0 +1,83 @@
+@use "../../../sass/main.scss" as *;
+@use "../../../sass/theme/theme.scss" as *;
+@use "../../../sass/typography/typography.scss" as *;
+
+.featuredEducators {
+    background: $bg-color-beige-50;
+    padding: 80px 0;
+
+    .container {
+        max-width: calc(1240px + 40px);
+        padding: 0 20px;
+        margin: 0 auto;
+
+        div {
+
+            .featuredEducators-title {
+                padding: 0 0 24px;
+
+                h2 {
+                    color: $text-color-raisin-black;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 100%;
+                    font-family: PPPangramSans-Medium;
+                }
+            }
+
+            .featuredEducators-grid {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 20px;
+
+                .featuredEducators-items {
+                    background: $bg-color-white;
+                    border-radius: 17.797px;
+                    padding: 14px;
+                    border: .742px solid #bdbdbd;
+                    transition: .3s ease-in-out;
+                    cursor: pointer;
+
+                    .featuredEducators-image {
+                        height: 180px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 14px;
+                            display: block;
+                        }
+                    }
+
+                    .featuredEducators-details {
+                        padding: 11px 0 0;
+
+                        h3 {
+                            color: $text-color-blue-grey-900;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 95%;
+                            margin: 0 0 6px;
+                            font-family: PPPangramSans-Medium;
+                        }
+
+                        p {
+                            color: #595959;
+                            font-size: 11.865px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
