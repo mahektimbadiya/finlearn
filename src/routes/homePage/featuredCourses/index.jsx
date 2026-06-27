@@ -16,7 +16,7 @@ export default function FeaturedCourses() {
                             Featured Courses ( 10 )
                         </h2>
                         <div className="tab-tabDesign">
-                            <button>Recorded</button>
+                            <Button arrow={"none"} buttonText={"Recorded"} />
                             <button>Live</button>
                             <button>Offline</button>
                         </div>

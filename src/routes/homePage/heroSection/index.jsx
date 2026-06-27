@@ -6,6 +6,7 @@ import FromActiveExperts from "../../../assets/images/FromActiveExperts.jpg";
 import ShapeYourFuture from "../../../assets/images/ShapeYourFuture.jpg";
 import LearnWithoutExcuses from "../../../assets/images/LearnWithoutExcuses.jpg";
 import rightArrow from "../../../assets/logo/right.svg";
+import Button from "../../../componentes/button";
 
 export default function HeroSection() {
     const settings = {
@@ -38,10 +39,7 @@ export default function HeroSection() {
                                             Get complete learning tracks in Crypto, Forex, AI, Marketing & more — Beginner to Advanced, all in one place.
                                         </p>
                                         <div className="herobanner-buttonAlignment">
-                                            <button>
-                                                <span>Explore New Courses</span>
-                                                <img src={rightArrow} alt="rightArrow" />
-                                            </button>
+                                            <Button buttonText={"Explore New Courses"} />
                                         </div>
                                     </div>
                                 </div>
@@ -65,10 +63,7 @@ export default function HeroSection() {
                                             Join real-time market sessions, expert masterclasses, and intensive bootcamps led by practitioners who actively trade and build.
                                         </p>
                                         <div className="herobanner-buttonAlignment">
-                                            <button>
-                                                <span>Book Live Sessions</span>
-                                                <img src={rightArrow} alt="rightArrow" />
-                                            </button>
+                                            <Button buttonText={"Book Live Sessions"} />
                                         </div>
                                     </div>
                                 </div>
@@ -92,10 +87,7 @@ export default function HeroSection() {
                                             50+ practical programs in AI, Finance, Marketing & Business — recorded, live, or offline.
                                         </p>
                                         <div className="herobanner-buttonAlignment">
-                                            <button>
-                                                <span>Explore All Courses</span>
-                                                <img src={rightArrow} alt="rightArrow" />
-                                            </button>
+                                            <Button buttonText={"Explore All Courses"} />
                                         </div>
                                     </div>
                                 </div>
