@@ -1,0 +1,140 @@
+@use "../../../sass/main.scss" as *;
+@use "../../../sass/theme/theme.scss" as *;
+@use "../../../sass/typography/typography.scss" as *;
+
+.joinTheFinLearn {
+    padding: 80px 0;
+
+    .container {
+        max-width: calc(1240px + 40px);
+        padding: 0 20px;
+        margin: 0 auto;
+
+        .joinTheFinLearn-grid {
+            display: grid;
+            grid-template-columns: 421px 1fr;
+            gap: 90px;
+            align-items: center;
+
+            .joinTheFinLearn-griditems {
+
+                &:first-child {
+
+                    h2 {
+                        color: $text-color-blue-grey-900;
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 100%;
+                        margin: 0 0 24px;
+                        text-transform: capitalize;
+                        font-family: PPPangramSans-Medium;
+                        opacity: 1;
+                        transform: none;
+                    }
+
+                    p {
+                        opacity: 1;
+                        transform: none;
+                        color: $text-color-gray-500;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 100%;
+                        margin: 0 0 24px;
+                        max-width: 421px;
+                    }
+
+                    .joinTheFinLearn-allIcontextAlignment {
+                        padding: 0 0 32px;
+
+                        .joinTheFinLearn-iconText {
+                            opacity: 1;
+                            transform: none;
+                            display: grid;
+                            grid-template-columns: 24px 1fr;
+                            gap: 8px;
+                            align-items: center;
+                            padding: 0 0 8px;
+
+                            svg {
+                                width: 24;
+                                height: 24;
+                                color: $text-color-primary;
+                            }
+
+                            span {
+                                display: block;
+                                color: $text-color-gray-500;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &:last-child {
+                    opacity: 1;
+                    transform: none;
+
+                    .joinTheFinLearn-image {
+                        animation: floating3D 12s ease-in-out infinite;
+
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes floating3D {
+    0% {
+        transform: perspective(1000px) translateY(0px) translateX(0px) scale(1) rotateX(0deg) rotateY(0deg);
+    }
+
+    10% {
+        transform: perspective(1000px) translateY(-6px) translateX(3px) scale(1.01) rotateX(-2deg) rotateY(3deg);
+    }
+
+    20% {
+        transform: perspective(1000px) translateY(-12px) translateX(6px) scale(1.02) rotateX(-4deg) rotateY(5deg);
+    }
+
+    30% {
+        transform: perspective(1000px) translateY(-8px) translateX(4px) scale(1.025) rotateX(-3deg) rotateY(4deg);
+    }
+
+    40% {
+        transform: perspective(1000px) translateY(0px) translateX(0px) scale(1.03) rotateX(0deg) rotateY(2deg);
+    }
+
+    50% {
+        transform: perspective(1000px) translateY(10px) translateX(-4px) scale(1.025) rotateX(3deg) rotateY(-3deg);
+    }
+
+    60% {
+        transform: perspective(1000px) translateY(14px) translateX(-8px) scale(1.02) rotateX(5deg) rotateY(-5deg);
+    }
+
+    70% {
+        transform: perspective(1000px) translateY(8px) translateX(-5px) scale(1.015) rotateX(3deg) rotateY(-2deg);
+    }
+
+    80% {
+        transform: perspective(1000px) translateY(-2px) translateX(2px) scale(1.01) rotateX(-1deg) rotateY(2deg);
+    }
+
+    90% {
+        transform: perspective(1000px) translateY(-4px) translateX(1px) scale(1.005) rotateX(-2deg) rotateY(1deg);
+    }
+
+    100% {
+        transform: perspective(1000px) translateY(0px) translateX(0px) scale(1) rotateX(0deg) rotateY(0deg);
+    }
+}
