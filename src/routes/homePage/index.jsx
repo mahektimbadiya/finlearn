@@ -5,6 +5,8 @@ import ExploreCategories from "./exploreCategories";
 import FeaturedCourses from "./featuredCourses";
 import FeaturedEducators from "./featuredEducators";
 import StudentSuccess from "./studentSuccess";
+import ReferFriends from "./referFriends";
+import JoinTheFinLearn from "./joinTheFinLearn";
 
 export default function HomePage() {
     return (
@@ -15,6 +17,8 @@ export default function HomePage() {
             <FeaturedCourses />
             <FeaturedEducators />
             <StudentSuccess />
+            <ReferFriends />
+            <JoinTheFinLearn/>
         </div>
     )
 }
