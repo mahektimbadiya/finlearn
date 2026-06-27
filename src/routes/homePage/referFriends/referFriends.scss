@@ -1,0 +1,91 @@
+@use "../../../sass/main.scss" as *;
+@use "../../../sass/theme/theme.scss" as *;
+@use "../../../sass/typography/typography.scss" as *;
+
+.referFriendsAlignment {
+    background: $bg-color-beige-50;
+
+    .container {
+        max-width: calc(1240px + 40px);
+        padding: 0 20px;
+        margin: 0 auto;
+
+        .referFriends-grid {
+            display: grid;
+            grid-template-columns: 570px 1fr;
+            gap: 70px;
+
+            .referFriends-griditems {
+
+                &:first-child {
+                    height: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+                }
+
+                &:last-child {
+                    padding: 80px 0;
+                    z-index: 2;
+
+                    .referFriends-title {
+                        padding: 0 0 40px;
+
+                        h2 {
+                            color: $text-color-blue-grey-900;
+                            font-size: 28px;
+                            margin: 0 0 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 100%;
+                            text-transform: capitalize;
+                            font-family: PPPangramSans-Medium;
+                        }
+
+                        p {
+                            color: $text-color-gray-500;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 100%;
+                            max-width: 584px;
+                        }
+                    }
+
+                    .referFriends-allContentAlignment {
+                        padding: 0 0 40px;
+
+                        .referFriends-content {
+                            padding: 0 0 32px;
+
+                            h3 {
+                                color: $text-color-blue-grey-900;
+                                font-size: 32px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 100%;
+                                margin: 0 0 20px;
+                                font-family: PPPangramSans-Medium;
+
+                                span {
+                                    color: $text-color-primary;
+                                }
+                            }
+
+                            p {
+                                color: $text-color-raisin-black;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
