@@ -9,6 +9,7 @@ import ReferFriends from "./referFriends";
 import JoinTheFinLearn from "./joinTheFinLearn";
 import BlogsAndInsights from "./blogsAndInsights";
 import LearnBeyond from "./learnBeyond";
+import LearningJourney from "./learningJourney";
 
 export default function HomePage() {
     return (
@@ -23,6 +24,7 @@ export default function HomePage() {
             <JoinTheFinLearn />
             <BlogsAndInsights />
             <LearnBeyond />
+            <LearningJourney/>
         </div>
     )
 }

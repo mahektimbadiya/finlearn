@@ -1,0 +1,91 @@
+@use "../../../sass/main.scss" as *;
+@use "../../../sass/theme/theme.scss" as *;
+@use "../../../sass/typography/typography.scss" as *;
+
+.learningJourney {
+    padding: 75px 0 0;
+
+    .container {
+        max-width: calc(1240px + 40px);
+        padding: 0 20px;
+        margin: 0 auto;
+
+        .learningJourney-box {
+            opacity: 1;
+            border-radius: 24px;
+            background: $bg-color-beige-50;
+            padding: 73px 56px;
+            position: relative;
+
+            .learningJourney-title {
+
+                h2 {
+                    opacity: 1;
+                    filter: blur(0px);
+                    transform: none;
+                    max-width: 454px;
+                    color: $text-color-blue-grey-900;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 100%;
+                    text-transform: capitalize;
+                    font-family: PPPangramSans-Medium;
+                }
+
+                p {
+                    opacity: 1;
+                    filter: blur(0px);
+                    transform: none;
+                    margin: 24px 0;
+                    color: $text-color-raisin-black;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                    max-width: 454px;
+                    white-space: pre-line;
+                }
+            }
+
+            .learningJourney-buttonAlignment {
+                opacity: 1;
+                display: flex;
+                align-items: center;
+                gap: 11px;
+
+                .learningJourney-twobutton {
+                    display: flex;
+                    align-items: center;
+                    gap: 11px;
+
+                    img {
+                        opacity: 1;
+                        transform: none;
+                        display: block;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+
+                        &:hover {
+                            transform: translatey(-3px) scale(1.08);
+                        }
+                    }
+                }
+            }
+
+            .learningJourney-imagealignment {
+                opacity: 1;
+                transform: none;
+                position: absolute;
+                bottom: 0;
+                right: 50px;
+                display: flex;
+                align-items: flex-end;
+
+                img {
+                    max-width: 524px;
+                }
+            }
+        }
+    }
+}
