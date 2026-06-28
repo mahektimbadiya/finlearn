@@ -7,6 +7,7 @@ import FeaturedEducators from "./featuredEducators";
 import StudentSuccess from "./studentSuccess";
 import ReferFriends from "./referFriends";
 import JoinTheFinLearn from "./joinTheFinLearn";
+import BlogsAndInsights from "./blogsAndInsights";
 
 export default function HomePage() {
     return (
@@ -18,7 +19,8 @@ export default function HomePage() {
             <FeaturedEducators />
             <StudentSuccess />
             <ReferFriends />
-            <JoinTheFinLearn/>
+            <JoinTheFinLearn />
+            <BlogsAndInsights />
         </div>
     )
 }
