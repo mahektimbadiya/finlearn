@@ -8,6 +8,7 @@ import StudentSuccess from "./studentSuccess";
 import ReferFriends from "./referFriends";
 import JoinTheFinLearn from "./joinTheFinLearn";
 import BlogsAndInsights from "./blogsAndInsights";
+import LearnBeyond from "./learnBeyond";
 
 export default function HomePage() {
     return (
@@ -21,6 +22,7 @@ export default function HomePage() {
             <ReferFriends />
             <JoinTheFinLearn />
             <BlogsAndInsights />
+            <LearnBeyond />
         </div>
     )
 }
