@@ -1,0 +1,33 @@
+@use "../../../sass/main.scss" as *;
+@use "../../../sass/theme/theme.scss" as *;
+@use "../../../sass/typography/typography.scss" as *;
+
+.marqueeSection {
+    overflow: hidden;
+    padding: 80px 0;
+
+    .marqueeSection-marqueeTrack {
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        marquee {
+            white-space: nowrap;
+            overflow: hidden;
+
+            .marqueeSection-box {
+                padding: 10px 20px;
+                height: 84px;
+                border-radius: 12px;
+                border: 1px solid $border-gray-600;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                display: inline-flex;
+                margin-right: 16px;
+            }
+        }
+    }
+}

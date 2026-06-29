@@ -10,6 +10,7 @@ import JoinTheFinLearn from "./joinTheFinLearn";
 import BlogsAndInsights from "./blogsAndInsights";
 import LearnBeyond from "./learnBeyond";
 import LearningJourney from "./learningJourney";
+import MarqueeSection from "./marqueeSection";
 
 export default function HomePage() {
     return (
@@ -24,7 +25,8 @@ export default function HomePage() {
             <JoinTheFinLearn />
             <BlogsAndInsights />
             <LearnBeyond />
-            <LearningJourney/>
+            <LearningJourney />
+            <MarqueeSection />
         </div>
     )
 }
