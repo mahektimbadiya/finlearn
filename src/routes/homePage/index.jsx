@@ -11,6 +11,7 @@ import BlogsAndInsights from "./blogsAndInsights";
 import LearnBeyond from "./learnBeyond";
 import LearningJourney from "./learningJourney";
 import MarqueeSection from "./marqueeSection";
+import FrequentlyAskedQuestions from "./frequentlyAskedQuestions";
 
 export default function HomePage() {
     return (
@@ -27,6 +28,7 @@ export default function HomePage() {
             <LearnBeyond />
             <LearningJourney />
             <MarqueeSection />
+            <FrequentlyAskedQuestions />
         </div>
     )
 }

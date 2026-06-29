@@ -1,0 +1,86 @@
+@use "../../../sass/main.scss" as *;
+@use "../../../sass/theme/theme.scss" as *;
+@use "../../../sass/typography/typography.scss" as *;
+
+.faqSection {
+    background: $bg-color-beige-50;
+    margin: 0 0 80px;
+    padding: 80px 0;
+
+    .container {
+        max-width: calc(1240px + 40px);
+        padding: 0 20px;
+        margin: 0 auto;
+
+        .faqSection-title {
+            opacity: 1;
+            filter: blur(0px);
+            transform: none;
+            padding: 0 0 40px;
+
+            h2 {
+                color: $text-color-blue-grey-900;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                text-align: center;
+                line-height: 100%;
+                text-transform: capitalize;
+                font-family: PPPangramSans-Medium;
+            }
+        }
+
+        .faqSection-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+
+            .faqSection-griditems {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .faqSection-box {
+                    border-radius: 18px;
+                    background: #fff;
+                    padding: 15px 18px;
+
+                    .faqSection-faqHeaderAlignment {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        cursor: pointer;
+
+                        h3 {
+                            color: $text-neutral-900;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            font-family: PPPangramSans-Medium;
+                        }
+
+                        .faqSection-icon {
+                            width: 36px;
+                            height: 36px;
+                            min-width: 36px;
+                            min-height: 36px;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            background: $bg-color-orange-500;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            svg{
+                                width: 18px;
+                                height: 18px;
+                                color: $text-color-white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
