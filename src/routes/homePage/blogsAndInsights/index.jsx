@@ -5,16 +5,39 @@ import ReactSlick from "react-slick";
 import Button from "../../../componentes/button";
 const Slider = ReactSlick.default ?? ReactSlick;
 
+function SampleNextArrow(props) {
+    const { className, onClick } = props;
+    return (
+        <div
+            className="Left"
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, onClick } = props;
+    return (
+        <div
+            className="Right"
+            onClick={onClick}
+        />
+    );
+}
+
 export default function BlogsAndInsights() {
+
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3.5,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        className: "center",
+        centerMode: true,
+        centerPadding: "60px",
+        speed: 500,
     };
     return (
         <div className="blogsAndInsights">

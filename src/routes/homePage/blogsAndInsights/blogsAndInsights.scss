@@ -43,11 +43,13 @@
 
                 .slick-list {
                     overflow: hidden;
+                    max-width: 100%;
                 }
 
                 .slick-track {
                     display: flex;
                     gap: 0;
+                    width: 1224.67px;
                 }
 
                 .slick-slide {
@@ -130,4 +132,30 @@
             padding: 40px 0 0;
         }
     }
+}
+
+.Left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+
+.Right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+
+.center{
+    // transform: scale(1.02);
 }
