@@ -31,40 +31,35 @@
             position: relative;
 
             .swiper {
-                touch-action: pan-y;
-                margin-left: auto;
-                margin-right: auto;
                 position: relative;
                 overflow: hidden;
-                list-style: none;
-                padding: 0;
-                z-index: 2;
-                display: block;
 
                 .slick-list {
-                    overflow: hidden;
-                    max-width: 100%;
+                    overflow: visible;
+                    padding: 20px 0;
                 }
 
                 .slick-track {
                     display: flex;
-                    gap: 0;
-                    width: 1224.67px;
+                    align-items: center;
                 }
 
                 .slick-slide {
-                    max-width: calc(291.25px + 20px);
+                    padding: 0 10px;
+                    box-sizing: border-box;
+                    opacity: 0.5;
+                    transform: scale(0.9);
+                    transition: all .3s ease-in-out;
+                }
+
+                .slick-center{
+                    opacity: 1;
+                    transform: scale(1);
                 }
 
                 .swiper-slide {
-                    max-width: 291.25px;
-                    margin-right: 20px;
-                    transform: translateZ(0);
-                    backface-visibility: hidden;
-                    flex-shrink: 0;
+                    width: 100%;
                     height: 100%;
-                    position: relative;
-                    transition-property: transform;
                     display: block;
 
                     .blogCard {
@@ -134,28 +129,44 @@
     }
 }
 
-.Left{
+.Left {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background-color: red;
+    background-color: #000000;
     width: 50px;
     height: 50px;
     z-index: 99;
+    border-radius: 99px;
+
+    svg {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 13px;
+        left: 13px;
+    }
 }
 
-.Right{
+.Right {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    background-color: red;
+    background-color: #000000;
     width: 50px;
     height: 50px;
     z-index: 99;
-}
+    border-radius: 99px;
 
-.center{
-    // transform: scale(1.02);
+    svg {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+    }
 }
